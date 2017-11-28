@@ -7,25 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1023B22D840FC5AA7B892774 /* Pods_Final_v2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D73BDCAC9404BB95D5A73D /* Pods_Final_v2.framework */; };
+		8F0B243E1FC7DC71001A67DE /* 4-tap-minimal-full-version-15bf702b6f1.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140291FC515E40066BD5B /* 4-tap-minimal-full-version-15bf702b6f1.watch */; };
+		8F0B243F1FC7DC71001A67DE /* 4-tap-minimal-lite-version-15be6becca7.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140221FC515E10066BD5B /* 4-tap-minimal-lite-version-15be6becca7.watch */; };
+		8F0B24401FC7DC71001A67DE /* bell-ross-br-0392-diver.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140281FC515E30066BD5B /* bell-ross-br-0392-diver.watch */; };
+		8F0B24411FC7DC71001A67DE /* bell-ross-gmt-flyback-chronograph-br126-black.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31401B1FC515DE0066BD5B /* bell-ross-gmt-flyback-chronograph-br126-black.watch */; };
+		8F0B24441FC7DC7F001A67DE /* casio-oceanus-ocwg1000.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140231FC515E10066BD5B /* casio-oceanus-ocwg1000.watch */; };
+		8F0B24451FC7DC7F001A67DE /* edox-chronorally-sauber-blue--black-white.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31402C1FC515F50066BD5B /* edox-chronorally-sauber-blue--black-white.watch */; };
+		8F0B24461FC7DC7F001A67DE /* elgin-early-military.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140191FC515DD0066BD5B /* elgin-early-military.watch */; };
+		8F0B24471FC7DC7F001A67DE /* fp-journe-octa-zodiaque.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31402B1FC515F40066BD5B /* fp-journe-octa-zodiaque.watch */; };
+		8F0B24481FC7DC7F001A67DE /* hermes.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140251FC515E20066BD5B /* hermes.watch */; };
+		8F0B24491FC7DC7F001A67DE /* melvin-s-watch-15c0ba2fabc.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140211FC515E00066BD5B /* melvin-s-watch-15c0ba2fabc.watch */; };
+		8F0B244A1FC7DC7F001A67DE /* ornt-automatic-lume.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31401C1FC515DF0066BD5B /* ornt-automatic-lume.watch */; };
+		8F0B244B1FC7DC7F001A67DE /* ornt-automatic.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31402A1FC515ED0066BD5B /* ornt-automatic.watch */; };
+		8F0B244C1FC7DC7F001A67DE /* shinola-runwell-white--calibre-argonite-5021-v2.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140201FC515E00066BD5B /* shinola-runwell-white--calibre-argonite-5021-v2.watch */; };
+		8F0B244D1FC7DC7F001A67DE /* skagen.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140261FC515E30066BD5B /* skagen.watch */; };
+		8F0B244E1FC7DC7F001A67DE /* soleil-steps-redone-15bc0c4b515.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140271FC515E30066BD5B /* soleil-steps-redone-15bc0c4b515.watch */; };
+		8F0B244F1FC7DC7F001A67DE /* splicedwerk-mt-titanium.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31401A1FC515DD0066BD5B /* splicedwerk-mt-titanium.watch */; };
+		8F0B24501FC7DC7F001A67DE /* timex-linear-chronograph-t2p277.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31401D1FC515DF0066BD5B /* timex-linear-chronograph-t2p277.watch */; };
+		8F0B24511FC7DC7F001A67DE /* tsovet-svtrm40.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31402E1FC515F50066BD5B /* tsovet-svtrm40.watch */; };
+		8F0B24521FC7DC7F001A67DE /* winter.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31402D1FC515F50066BD5B /* winter.watch */; };
 		8F313FEA1FC4B1430066BD5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F313FE91FC4B1430066BD5B /* AppDelegate.swift */; };
 		8F313FED1FC4B1430066BD5B /* Final_v2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F313FEB1FC4B1430066BD5B /* Final_v2.xcdatamodeld */; };
 		8F313FEF1FC4B1430066BD5B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F313FEE1FC4B1430066BD5B /* MasterViewController.swift */; };
 		8F313FF11FC4B1430066BD5B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F313FF01FC4B1430066BD5B /* DetailViewController.swift */; };
-		8F313FF41FC4B1430066BD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F313FF21FC4B1430066BD5B /* Main.storyboard */; };
 		8F313FF61FC4B1430066BD5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F313FF51FC4B1430066BD5B /* Assets.xcassets */; };
 		8F313FF91FC4B1430066BD5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F313FF71FC4B1430066BD5B /* LaunchScreen.storyboard */; };
+		8F31400C1FC4C0680066BD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F31400B1FC4C0670066BD5B /* Main.storyboard */; };
+		8F3140131FC4C30A0066BD5B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F31400E1FC4C3090066BD5B /* SwiftyJSON.swift */; };
+		8F3140181FC50EA30066BD5B /* watchfaces.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F3140171FC50EA30066BD5B /* watchfaces.json */; };
+		8FBFED0B1FC90425009476A5 /* like-on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFED0A1FC90425009476A5 /* like-on.png */; };
+		8FBFED0F1FC92B09009476A5 /* like-button-png-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FBFED0E1FC9053B009476A5 /* like-button-png-2.png */; };
+		8FF34B791FC7897C0070E779 /* casio-copy.watch in Resources */ = {isa = PBXBuildFile; fileRef = 8F31401E1FC515DF0066BD5B /* casio-copy.watch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B2A4ACDC0AC9A8D90FAA8A9 /* Pods-Final v2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final v2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Final v2/Pods-Final v2.debug.xcconfig"; sourceTree = "<group>"; };
+		43D73BDCAC9404BB95D5A73D /* Pods_Final_v2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_v2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F313FE61FC4B1430066BD5B /* Final v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F313FE91FC4B1430066BD5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F313FEC1FC4B1430066BD5B /* Final_v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Final_v2.xcdatamodel; sourceTree = "<group>"; };
 		8F313FEE1FC4B1430066BD5B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		8F313FF01FC4B1430066BD5B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		8F313FF31FC4B1430066BD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F313FF51FC4B1430066BD5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F313FF81FC4B1430066BD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F313FFA1FC4B1430066BD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F31400B1FC4C0670066BD5B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8F31400E1FC4C3090066BD5B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8F3140171FC50EA30066BD5B /* watchfaces.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = watchfaces.json; sourceTree = "<group>"; };
+		8F3140191FC515DD0066BD5B /* elgin-early-military.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "elgin-early-military.watch"; sourceTree = "<group>"; };
+		8F31401A1FC515DD0066BD5B /* splicedwerk-mt-titanium.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "splicedwerk-mt-titanium.watch"; sourceTree = "<group>"; };
+		8F31401B1FC515DE0066BD5B /* bell-ross-gmt-flyback-chronograph-br126-black.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bell-ross-gmt-flyback-chronograph-br126-black.watch"; sourceTree = "<group>"; };
+		8F31401C1FC515DF0066BD5B /* ornt-automatic-lume.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ornt-automatic-lume.watch"; sourceTree = "<group>"; };
+		8F31401D1FC515DF0066BD5B /* timex-linear-chronograph-t2p277.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "timex-linear-chronograph-t2p277.watch"; sourceTree = "<group>"; };
+		8F31401E1FC515DF0066BD5B /* casio-copy.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "casio-copy.watch"; sourceTree = "<group>"; };
+		8F3140201FC515E00066BD5B /* shinola-runwell-white--calibre-argonite-5021-v2.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shinola-runwell-white--calibre-argonite-5021-v2.watch"; sourceTree = "<group>"; };
+		8F3140211FC515E00066BD5B /* melvin-s-watch-15c0ba2fabc.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "melvin-s-watch-15c0ba2fabc.watch"; sourceTree = "<group>"; };
+		8F3140221FC515E10066BD5B /* 4-tap-minimal-lite-version-15be6becca7.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "4-tap-minimal-lite-version-15be6becca7.watch"; sourceTree = "<group>"; };
+		8F3140231FC515E10066BD5B /* casio-oceanus-ocwg1000.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "casio-oceanus-ocwg1000.watch"; sourceTree = "<group>"; };
+		8F3140251FC515E20066BD5B /* hermes.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = hermes.watch; sourceTree = "<group>"; };
+		8F3140261FC515E30066BD5B /* skagen.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = skagen.watch; sourceTree = "<group>"; };
+		8F3140271FC515E30066BD5B /* soleil-steps-redone-15bc0c4b515.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "soleil-steps-redone-15bc0c4b515.watch"; sourceTree = "<group>"; };
+		8F3140281FC515E30066BD5B /* bell-ross-br-0392-diver.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bell-ross-br-0392-diver.watch"; sourceTree = "<group>"; };
+		8F3140291FC515E40066BD5B /* 4-tap-minimal-full-version-15bf702b6f1.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "4-tap-minimal-full-version-15bf702b6f1.watch"; sourceTree = "<group>"; };
+		8F31402A1FC515ED0066BD5B /* ornt-automatic.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ornt-automatic.watch"; sourceTree = "<group>"; };
+		8F31402B1FC515F40066BD5B /* fp-journe-octa-zodiaque.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fp-journe-octa-zodiaque.watch"; sourceTree = "<group>"; };
+		8F31402C1FC515F50066BD5B /* edox-chronorally-sauber-blue--black-white.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "edox-chronorally-sauber-blue--black-white.watch"; sourceTree = "<group>"; };
+		8F31402D1FC515F50066BD5B /* winter.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = winter.watch; sourceTree = "<group>"; };
+		8F31402E1FC515F50066BD5B /* tsovet-svtrm40.watch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tsovet-svtrm40.watch"; sourceTree = "<group>"; };
+		8FBFED0A1FC90425009476A5 /* like-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like-on.png"; sourceTree = "<group>"; };
+		8FBFED0E1FC9053B009476A5 /* like-button-png-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "like-button-png-2.png"; path = "/Users/datam/iOS Mobile App Dev Course/Assignments/Final/Final v2.1/Final v2/Data/like-button-png-2.png"; sourceTree = "<absolute>"; };
+		E99222442A7445F6A3FA1E90 /* Pods-Final v2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final v2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Final v2/Pods-Final v2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +85,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1023B22D840FC5AA7B892774 /* Pods_Final_v2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6729267D9C14697833370313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43D73BDCAC9404BB95D5A73D /* Pods_Final_v2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8F313FDD1FC4B1430066BD5B = {
 			isa = PBXGroup;
 			children = (
 				8F313FE81FC4B1430066BD5B /* Final v2 */,
 				8F313FE71FC4B1430066BD5B /* Products */,
+				9C7825F10960C937B1604E2D /* Pods */,
+				6729267D9C14697833370313 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +121,65 @@
 		8F313FE81FC4B1430066BD5B /* Final v2 */ = {
 			isa = PBXGroup;
 			children = (
+				8F31400F1FC4C3090066BD5B /* Data */,
+				8F31400D1FC4C3090066BD5B /* Library */,
 				8F313FE91FC4B1430066BD5B /* AppDelegate.swift */,
 				8F313FEE1FC4B1430066BD5B /* MasterViewController.swift */,
 				8F313FF01FC4B1430066BD5B /* DetailViewController.swift */,
-				8F313FF21FC4B1430066BD5B /* Main.storyboard */,
+				8F31400B1FC4C0670066BD5B /* Main.storyboard */,
 				8F313FF51FC4B1430066BD5B /* Assets.xcassets */,
 				8F313FF71FC4B1430066BD5B /* LaunchScreen.storyboard */,
 				8F313FFA1FC4B1430066BD5B /* Info.plist */,
 				8F313FEB1FC4B1430066BD5B /* Final_v2.xcdatamodeld */,
 			);
 			path = "Final v2";
+			sourceTree = "<group>";
+		};
+		8F31400D1FC4C3090066BD5B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8F31400E1FC4C3090066BD5B /* SwiftyJSON.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8F31400F1FC4C3090066BD5B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8FBFED0A1FC90425009476A5 /* like-on.png */,
+				8FBFED0E1FC9053B009476A5 /* like-button-png-2.png */,
+				8F3140291FC515E40066BD5B /* 4-tap-minimal-full-version-15bf702b6f1.watch */,
+				8F3140221FC515E10066BD5B /* 4-tap-minimal-lite-version-15be6becca7.watch */,
+				8F3140281FC515E30066BD5B /* bell-ross-br-0392-diver.watch */,
+				8F31401B1FC515DE0066BD5B /* bell-ross-gmt-flyback-chronograph-br126-black.watch */,
+				8F31401E1FC515DF0066BD5B /* casio-copy.watch */,
+				8F3140231FC515E10066BD5B /* casio-oceanus-ocwg1000.watch */,
+				8F31402C1FC515F50066BD5B /* edox-chronorally-sauber-blue--black-white.watch */,
+				8F3140191FC515DD0066BD5B /* elgin-early-military.watch */,
+				8F31402B1FC515F40066BD5B /* fp-journe-octa-zodiaque.watch */,
+				8F3140251FC515E20066BD5B /* hermes.watch */,
+				8F3140211FC515E00066BD5B /* melvin-s-watch-15c0ba2fabc.watch */,
+				8F31401C1FC515DF0066BD5B /* ornt-automatic-lume.watch */,
+				8F31402A1FC515ED0066BD5B /* ornt-automatic.watch */,
+				8F3140201FC515E00066BD5B /* shinola-runwell-white--calibre-argonite-5021-v2.watch */,
+				8F3140261FC515E30066BD5B /* skagen.watch */,
+				8F3140271FC515E30066BD5B /* soleil-steps-redone-15bc0c4b515.watch */,
+				8F31401A1FC515DD0066BD5B /* splicedwerk-mt-titanium.watch */,
+				8F31401D1FC515DF0066BD5B /* timex-linear-chronograph-t2p277.watch */,
+				8F31402E1FC515F50066BD5B /* tsovet-svtrm40.watch */,
+				8F31402D1FC515F50066BD5B /* winter.watch */,
+				8F3140171FC50EA30066BD5B /* watchfaces.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9C7825F10960C937B1604E2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A4ACDC0AC9A8D90FAA8A9 /* Pods-Final v2.debug.xcconfig */,
+				E99222442A7445F6A3FA1E90 /* Pods-Final v2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F313FFD1FC4B1430066BD5B /* Build configuration list for PBXNativeTarget "Final v2" */;
 			buildPhases = (
+				D4A120692BDE0E6DDD6E8D96 /* [CP] Check Pods Manifest.lock */,
 				8F313FE21FC4B1430066BD5B /* Sources */,
 				8F313FE31FC4B1430066BD5B /* Frameworks */,
 				8F313FE41FC4B1430066BD5B /* Resources */,
+				FAA010ABD595A0CE7A22BB61 /* [CP] Embed Pods Frameworks */,
+				F17C298123696C24BD927DF0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,13 +244,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F31400C1FC4C0680066BD5B /* Main.storyboard in Resources */,
+				8F0B244E1FC7DC7F001A67DE /* soleil-steps-redone-15bc0c4b515.watch in Resources */,
+				8F0B244C1FC7DC7F001A67DE /* shinola-runwell-white--calibre-argonite-5021-v2.watch in Resources */,
+				8F0B24491FC7DC7F001A67DE /* melvin-s-watch-15c0ba2fabc.watch in Resources */,
+				8F0B24521FC7DC7F001A67DE /* winter.watch in Resources */,
+				8F0B244F1FC7DC7F001A67DE /* splicedwerk-mt-titanium.watch in Resources */,
+				8F0B243E1FC7DC71001A67DE /* 4-tap-minimal-full-version-15bf702b6f1.watch in Resources */,
+				8F0B24461FC7DC7F001A67DE /* elgin-early-military.watch in Resources */,
+				8F0B24411FC7DC71001A67DE /* bell-ross-gmt-flyback-chronograph-br126-black.watch in Resources */,
+				8F0B24401FC7DC71001A67DE /* bell-ross-br-0392-diver.watch in Resources */,
+				8F0B244B1FC7DC7F001A67DE /* ornt-automatic.watch in Resources */,
+				8FF34B791FC7897C0070E779 /* casio-copy.watch in Resources */,
+				8F3140181FC50EA30066BD5B /* watchfaces.json in Resources */,
+				8F0B24441FC7DC7F001A67DE /* casio-oceanus-ocwg1000.watch in Resources */,
+				8F0B24501FC7DC7F001A67DE /* timex-linear-chronograph-t2p277.watch in Resources */,
 				8F313FF91FC4B1430066BD5B /* LaunchScreen.storyboard in Resources */,
+				8F0B244A1FC7DC7F001A67DE /* ornt-automatic-lume.watch in Resources */,
+				8F0B24471FC7DC7F001A67DE /* fp-journe-octa-zodiaque.watch in Resources */,
+				8FBFED0B1FC90425009476A5 /* like-on.png in Resources */,
+				8FBFED0F1FC92B09009476A5 /* like-button-png-2.png in Resources */,
+				8F0B243F1FC7DC71001A67DE /* 4-tap-minimal-lite-version-15be6becca7.watch in Resources */,
+				8F0B24481FC7DC7F001A67DE /* hermes.watch in Resources */,
+				8F0B244D1FC7DC7F001A67DE /* skagen.watch in Resources */,
 				8F313FF61FC4B1430066BD5B /* Assets.xcassets in Resources */,
-				8F313FF41FC4B1430066BD5B /* Main.storyboard in Resources */,
+				8F0B24451FC7DC7F001A67DE /* edox-chronorally-sauber-blue--black-white.watch in Resources */,
+				8F0B24511FC7DC7F001A67DE /* tsovet-svtrm40.watch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4A120692BDE0E6DDD6E8D96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Final v2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F17C298123696C24BD927DF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Final v2/Pods-Final v2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA010ABD595A0CE7A22BB61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Final v2/Pods-Final v2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Final v2/Pods-Final v2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F313FE21FC4B1430066BD5B /* Sources */ = {
@@ -145,6 +337,7 @@
 				8F313FED1FC4B1430066BD5B /* Final_v2.xcdatamodeld in Sources */,
 				8F313FEA1FC4B1430066BD5B /* AppDelegate.swift in Sources */,
 				8F313FEF1FC4B1430066BD5B /* MasterViewController.swift in Sources */,
+				8F3140131FC4C30A0066BD5B /* SwiftyJSON.swift in Sources */,
 				8F313FF11FC4B1430066BD5B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,14 +345,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8F313FF21FC4B1430066BD5B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F313FF31FC4B1430066BD5B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8F313FF71FC4B1430066BD5B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +465,7 @@
 		};
 		8F313FFE1FC4B1430066BD5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2A4ACDC0AC9A8D90FAA8A9 /* Pods-Final v2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +480,7 @@
 		};
 		8F313FFF1FC4B1430066BD5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99222442A7445F6A3FA1E90 /* Pods-Final v2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
