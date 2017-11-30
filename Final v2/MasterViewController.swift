@@ -16,6 +16,7 @@ class MasterViewController: UITableViewController
     var managedObjectContext: NSManagedObjectContext? = nil
     
     var objects = Array<JSON>()
+    var likeSwitches = Array<Bool>()
     
     override func viewDidLoad()
     {
@@ -37,6 +38,11 @@ class MasterViewController: UITableViewController
             {
                 print("Can't open watch JSON file")
             }
+        }
+        
+        for _ in 1...objects.count
+        {
+            likeSwitches.append(false)
         }
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -73,11 +79,6 @@ class MasterViewController: UITableViewController
             {
                 let object = objects[indexPath.row]
                 
-                
-                
-                
-                
-                
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = object
                 controller.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem
@@ -103,11 +104,13 @@ class MasterViewController: UITableViewController
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
         let object = objects[indexPath.row]
-
+        
+        //Load watch face description 
         (cell.contentView.viewWithTag(10) as! UILabel).text = object["name"].stringValue
         
         if let button = (cell.contentView.viewWithTag(20) as? UIButton)
         {
+            // Add an action for the event when the like button is pressed
             button.addTarget(self, action: #selector(imageClicked), for: .touchUpInside)
         }
         
@@ -116,11 +119,23 @@ class MasterViewController: UITableViewController
     
     @objc func imageClicked(sender: UIButton)
     {
-/*
+        // Determine which row
         let point = (sender as AnyObject).convert(CGPoint.zero, to: self.tableView)
         let indexPath = self.tableView.indexPathForRow(at: point)
-*/
-        sender.setImage(UIImage(named: "like-on")?.withRenderingMode(.alwaysOriginal), for: [])
+
+        let i = indexPath!.row
+        let likeSwitch = likeSwitches[i]
+        
+        if likeSwitch
+        {
+            sender.setImage(UIImage(named: "like-button-png-2")?.withRenderingMode(.alwaysOriginal), for: [])
+            likeSwitches[i] = false
+        }
+        else
+        {
+            sender.setImage(UIImage(named: "like-on")?.withRenderingMode(.alwaysOriginal), for: [])
+            likeSwitches[i] = true
+        }
     }
     
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

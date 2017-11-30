@@ -55,7 +55,7 @@
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Watch Face Browser" id="mOI-FS-AaM"/>
+                    <navigationItem key="navigationItem" title="Watch Faces Browser" id="mOI-FS-AaM" userLabel="Watch Faces Browser"/>
                     <connections>
                         <outlet property="detailLabel" destination="BKV-bi-kCr" id="t0k-sN-mUw"/>
                         <outlet property="imageView" destination="yM5-RO-s56" id="Ay8-31-Zxu"/>
